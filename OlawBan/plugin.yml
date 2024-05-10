@@ -1,0 +1,38 @@
+name: OlawBan
+main: Olawban\olawrencee\Main
+api: 5.0.0
+version: 1.0.0
+author: Olawrencee
+
+commands:
+  tempban:
+    description: Заблокировать игрока
+    permission: olawban.tempban
+  tempunban:
+    description: Разблокировать игрока
+    permission: olawban.tempunban
+  warn:
+    description: Выдать предупреждение игроку
+    permission: olawban.warn
+  unwarn:
+    description: Забрать предупреждение
+    permission: olawban.unwarn
+  mute:
+    description: Замутить игрока
+    permission: olawban.mute
+
+permissions:
+  olawban.nomessage:
+    default: op
+  olawban.tempban:
+    default: op
+  olawban.tempunban:
+    default: op
+  olawban.warn:
+    default: op
+  olawban.unwarn:
+    default: op
+  olawban.mute:
+    default: op
+  olawban.unmute:
+    default: op
